@@ -110,9 +110,9 @@ cat("G-loading (uncorrected) = ", g_loading, "\n")
 
 # --- Spearman's Law of Diminishing Returns (SLODR) Calculation ---
 # Calculate the SLODR adjusted g-loading
-sample_mean_iq <- 120
-g_slodr_adjusted <- g_loading^exp(-(sample_mean_iq - 100) / (2 * 15)) # Apply the SLODR correction
-cat("G-loading (corrected for SLODR) = ", g_slodr_adjusted, "\n")
+#sample_mean_iq <- 120
+#g_slodr_adjusted <- g_loading^exp(-(sample_mean_iq - 100) / (2 * 15)) # Apply the SLODR correction
+#cat("G-loading (corrected for SLODR) = ", g_slodr_adjusted, "\n")
 
 # Extract goodness-of-fit metrics
 fit_measures <- lavaan::fitMeasures(fit, c("pvalue", "gfi", "agfi", "nfi", "nnfi", "tli", 
