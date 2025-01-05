@@ -1,21 +1,21 @@
-# Factor Analysis of [Wordcel.org](https://wordcel.org)'s ***[Rapid Battery](https://wordcel.org/rapid-battery/test)***
+# Factor Analysis of - [Wordcel.org](https://wordcel.org)'s ***- [Rapid Battery](https://wordcel.org/rapid-battery/test)***
 
-# G-loading: 0.65
+# G-loading: 0.70
 
-**Goodness-of-fit metrics (n=372):**
+**Goodness-of-fit metrics (n=451):**
 
-- [❌] P(χ²): 0.044
-- [✔] GFI: 0.954
-- [✔] AGFI: 0.936
-- [✔] NFI: 0.918
-- [✔] NNFI/TLI: 0.981
-- [✔] CFI: 0.985
-- [✔] RMSEA: 0.023
-- [✔] RMR: 0.031
-- [✔] SRMR: 0.044
-- [❌] RFI: 0.896
-- [✔] IFI: 0.985
-- [✔] PNFI: 0.725
+- [✔] P(χ²): 0.13
+- [✔] GFI: 0.964
+- [✔] AGFI: 0.95
+- [✔] NFI: 0.933
+- [✔] NNFI/TLI: 0.989
+- [✔] CFI: 0.992
+- [✔] RMSEA: 0.017
+- [✔] RMR: 0.029
+- [✔] SRMR: 0.039
+- [✔] RFI: 0.916
+- [✔] IFI: 0.992
+- [✔] PNFI: 0.737
 ================
 
 Run `factor-analysis2.r` (`factor-analysis.r` was my previous attempt using a different model).
